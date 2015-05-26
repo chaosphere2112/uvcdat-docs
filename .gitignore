@@ -51,7 +51,10 @@ coverage.xml
 *.log
 
 # Sphinx documentation
-docs/_build/
+build/
 
 # PyBuilder
 target/
+
+*.sublime-project
+*.sublime-workspace
