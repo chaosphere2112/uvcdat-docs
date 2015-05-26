@@ -10,10 +10,16 @@ Requires `sphinx`
 pip install -U sphinx
 ```
 
+You'll need to source a UV-CDAT installation:
+
+```
+source $UVCDAT_INSTALL_LOC/bin/setup_runtime.sh
+```
+
 Then, all you should need to do is:
 
 ```
-make
+make html
 ```
 
-which will give you a list of output targets (for the website, we use `make html`).
+Other output targets are available (`make` will list them if you don't provide a target)
